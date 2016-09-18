@@ -1,11 +1,15 @@
 use_frameworks!
 
+def import_pods
+   pod 'Eureka'
+end
+
 target 'MTFConverter_Example' do
   pod 'MTFConverter', :path => '../'
-
+  import_pods
   target 'MTFConverter_Tests' do
     inherit! :search_paths
-
+    import_pods
     
   end
 end

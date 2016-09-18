@@ -1,7 +1,10 @@
 PODS:
-  - MTFConverter (0.1.0)
+  - Eureka (1.7.0)
+  - MTFConverter (0.0.1):
+    - Eureka
 
 DEPENDENCIES:
+  - Eureka
   - MTFConverter (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +12,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MTFConverter: 400d0ffb0a9c97f8eaee16b6b6d6e99fa119935a
+  Eureka: 2020d9faeef7b7e9adeb9e3d8af779e5931c1897
+  MTFConverter: acb7e5d799c8a8e50471b0341b573c2289bbb657
 
-PODFILE CHECKSUM: 109cc18e7221bec6c3f92e9d17f4b3283e9cf55d
+PODFILE CHECKSUM: a89e7a9b2831cd9ccbc423c106154c4be82ae813
 
 COCOAPODS: 1.0.1
