@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		41CB86794F2E274BB15F6417A2E7E0DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		67B964A550C69BFD4EEE932078495DF0 /* MTFConverter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76000701C4DA6236FCB6BC837EE214B4 /* MTFConverter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94599194E061DB59AD098B5045D22C6D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFBF83F0EEFD637DD1D760E5FE168B /* ReplaceMe.swift */; };
 		9758A5F116719A6A0F667F8E3941721E /* Pods-MTFConverter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A9B0737D4D672DA0FB4A5DA6B037ED /* Pods-MTFConverter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B143F6473572FFD5F176BC8BE9F1E198 /* MTFConverter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A33BD5B116E769FDF6298F016AA7C6E /* MTFConverter-dummy.m */; };
 		B5B2D80B4198AC6595AA0CD437D59FF2 /* Pods-MTFConverter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CED3D599CA233AD4D4F18E73DCE329D /* Pods-MTFConverter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,7 +33,6 @@
 		1A33BD5B116E769FDF6298F016AA7C6E /* MTFConverter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTFConverter-dummy.m"; sourceTree = "<group>"; };
 		29967B2355F794B3BC2EFD0AAB04D7CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29DB286CE7867DDED78EED9EDF04BE5E /* Pods-MTFConverter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTFConverter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3AAFBF83F0EEFD637DD1D760E5FE168B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		3B3D2BB517A4A8C7F9F6B2E9AE09CD99 /* Pods-MTFConverter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTFConverter_Example-resources.sh"; sourceTree = "<group>"; };
 		3CED3D599CA233AD4D4F18E73DCE329D /* Pods-MTFConverter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTFConverter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		418FA2149FB76F0BC10B5361A6BB7AEE /* Pods-MTFConverter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTFConverter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 		38E0F6DE395420B3096E501EBE65E16C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3AAFBF83F0EEFD637DD1D760E5FE168B /* ReplaceMe.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -346,7 +343,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B143F6473572FFD5F176BC8BE9F1E198 /* MTFConverter-dummy.m in Sources */,
-				94599194E061DB59AD098B5045D22C6D /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
