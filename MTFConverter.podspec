@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'Easy to use framework that allows the conversion of JSON object to a Eureka form'
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/MTFConverter'
+  s.homepage         = 'https://github.com/liltimtim/MTFConverter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Timothy Barrett' => 'liltimtim@gmail.com' }
