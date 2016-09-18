@@ -1,0 +1,22 @@
+{
+  "name": "MTFConverter",
+  "version": "0.1.0",
+  "summary": "A short description of MTFConverter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MTFConverter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Timothy Barrett": "liltimtim@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MTFConverter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MTFConverter/Classes/**/*"
+}

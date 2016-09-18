@@ -1,0 +1,16 @@
+PODS:
+  - MTFConverter (0.1.0)
+
+DEPENDENCIES:
+  - MTFConverter (from `../`)
+
+EXTERNAL SOURCES:
+  MTFConverter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MTFConverter: 400d0ffb0a9c97f8eaee16b6b6d6e99fa119935a
+
+PODFILE CHECKSUM: 109cc18e7221bec6c3f92e9d17f4b3283e9cf55d
+
+COCOAPODS: 1.0.1
