@@ -7,7 +7,10 @@
 //
 
 import UIKit
-
+import Eureka
 public class MTFConverter: NSObject {
     
+    public static func convertJSONForm(json:AnyObject) {
+        
+    }
 }

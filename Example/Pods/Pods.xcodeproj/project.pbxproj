@@ -36,6 +36,7 @@
 		6152633CCB6B0254E42C00D98BC28A13 /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726AC476AC8793F848C1F8E07A06EC4E /* HeaderFooterView.swift */; };
 		61FF740A2A37371EFA9F3C8ABEEDAFF3 /* TextAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0AEE4EB2DEEE31D09B93D7EC333223 /* TextAreaRow.swift */; };
 		660E29286B4C961F1181530F3E7A046E /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A92912A0FEDE9ACE55C1E0CCD579B6 /* Eureka-dummy.m */; };
+		6706AE3B1D8F1A0900D0DC48 /* MTFObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706AE3A1D8F1A0900D0DC48 /* MTFObject.swift */; };
 		6775B0346C810AB8CF4380B44BEE1750 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1B93098124FE54EA125E1D80688DF /* Helpers.swift */; };
 		7115F2E2348DE6A7F3B1817CBED3AA72 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0C19F11F32C912C1014479341867D7 /* Eureka.framework */; };
 		72F0F49C15C14D0EB94206F776713672 /* InlineRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB610A40C1F1BC9A9338B1DC22B0AAA /* InlineRowType.swift */; };
@@ -149,6 +150,7 @@
 		60A92912A0FEDE9ACE55C1E0CCD579B6 /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
 		629D8732C18896851E1D06F10886E679 /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
 		63B4724A6CFB7AB014EB0B82AFD6F0BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		6706AE3A1D8F1A0900D0DC48 /* MTFObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTFObject.swift; sourceTree = "<group>"; };
 		6AA2F5755FA81ECCDC1FD3AD839479EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		712FE0C9CC1C519A135BCAA9FEED610A /* Pods-MTFConverter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTFConverter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		726AC476AC8793F848C1F8E07A06EC4E /* HeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFooterView.swift; path = Source/Core/HeaderFooterView.swift; sourceTree = "<group>"; };
@@ -428,6 +430,7 @@
 			isa = PBXGroup;
 			children = (
 				960AAB1D0D70D70DBE011FC06FB77C6A /* MTFConverter.swift */,
+				6706AE3A1D8F1A0900D0DC48 /* MTFObject.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -629,6 +632,7 @@
 			files = (
 				E7E5727A9A5D47003A5FC16DD5A1A823 /* MTFConverter-dummy.m in Sources */,
 				7A7D21EEEB9A723E712797967A1469DB /* MTFConverter.swift in Sources */,
+				6706AE3B1D8F1A0900D0DC48 /* MTFObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

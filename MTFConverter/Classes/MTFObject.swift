@@ -7,7 +7,9 @@
 //
 
 import UIKit
-
+protocol MTFConvertableObject {
+    func mtfJSONObject() -> [String:AnyObject]
+}
 class MTFObject: NSObject {
-
+    
 }
