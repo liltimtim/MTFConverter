@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MTFConverter_Example' do
+  pod 'MTFConverter', :path => '../'
+
+  target 'MTFConverter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
