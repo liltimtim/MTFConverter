@@ -44,6 +44,5 @@ public class MTFConverter: NSObject {
             assertionFailure("Bad data type given to converter")
             return nil
         }
-        return nil
     }
 }
