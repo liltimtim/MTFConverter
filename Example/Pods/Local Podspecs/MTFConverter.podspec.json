@@ -1,9 +1,9 @@
 {
   "name": "MTFConverter",
   "version": "0.0.1",
-  "summary": "A short description of MTFConverter.",
+  "summary": "JSON to Eureka Form Generator",
   "description": "Easy to use framework that allows the conversion of JSON object to a Eureka form",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MTFConverter",
+  "homepage": "https://github.com/liltimtim/MTFConverter",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Timothy Barrett": "liltimtim@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MTFConverter.git",
+    "git": "https://github.com/liltimtim/MTFConverter.git",
     "tag": "0.0.1"
   },
   "platforms": {

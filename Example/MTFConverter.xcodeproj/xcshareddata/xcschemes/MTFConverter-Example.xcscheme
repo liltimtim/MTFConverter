@@ -52,6 +52,16 @@
                ReferencedContainer = "container:MTFConverter.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "67C7D5661D8F5FD900DE87C2"
+               BuildableName = "MTFConverter_ExampleTests.xctest"
+               BlueprintName = "MTFConverter_ExampleTests"
+               ReferencedContainer = "container:MTFConverter.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

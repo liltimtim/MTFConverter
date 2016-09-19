@@ -31,17 +31,15 @@
 		58E2E4E04C8A365ABB02A4E62D566772 /* PickerInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A168881AABE110FA5574D2E740927FF6 /* PickerInlineRow.swift */; };
 		5A74A0CAB51128C71D0519EA90F6DD0F /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B2576EE93BC8C92F2F31DE3B15A857 /* Cell.swift */; };
 		5A7BDF5A6049B20A551F4FE566F443A2 /* Pods-MTFConverter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CED3D599CA233AD4D4F18E73DCE329D /* Pods-MTFConverter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FA02C6554204853F8DBBFA327BE16EE /* MTFConverter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76000701C4DA6236FCB6BC837EE214B4 /* MTFConverter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		600D6836E73F7FBCAA1F493AFDFC4EBA /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = B525DCAA65A305E21376690993A86972 /* Form.swift */; };
 		6152633CCB6B0254E42C00D98BC28A13 /* HeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726AC476AC8793F848C1F8E07A06EC4E /* HeaderFooterView.swift */; };
 		61FF740A2A37371EFA9F3C8ABEEDAFF3 /* TextAreaRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0AEE4EB2DEEE31D09B93D7EC333223 /* TextAreaRow.swift */; };
 		660E29286B4C961F1181530F3E7A046E /* Eureka-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A92912A0FEDE9ACE55C1E0CCD579B6 /* Eureka-dummy.m */; };
-		6706AE3B1D8F1A0900D0DC48 /* MTFObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706AE3A1D8F1A0900D0DC48 /* MTFObject.swift */; };
 		6775B0346C810AB8CF4380B44BEE1750 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1B93098124FE54EA125E1D80688DF /* Helpers.swift */; };
-		7115F2E2348DE6A7F3B1817CBED3AA72 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0C19F11F32C912C1014479341867D7 /* Eureka.framework */; };
+		6A451E3A5264C026E511B52D6E825EBE /* MTFObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B8A2CC5642207E2478C11588A203F6 /* MTFObject.swift */; };
+		72569EB3E4368A806967E254EC31EC9F /* MTFConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B3AFC63B2C71716CCE343ECD21C38 /* MTFConverter.swift */; };
 		72F0F49C15C14D0EB94206F776713672 /* InlineRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB610A40C1F1BC9A9338B1DC22B0AAA /* InlineRowType.swift */; };
 		749D8BCF08F9FBCA5D17B72A401B05FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2265178CFDBE372CE5292DA0F13D43BF /* Foundation.framework */; };
-		7A7D21EEEB9A723E712797967A1469DB /* MTFConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960AAB1D0D70D70DBE011FC06FB77C6A /* MTFConverter.swift */; };
 		7D91ACD6586867700438C1CC2557BEF7 /* CheckRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED2AA35CF7B4A6A75D5A68157803509 /* CheckRow.swift */; };
 		7DF0D078388923B8816F7D57910CFD42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2265178CFDBE372CE5292DA0F13D43BF /* Foundation.framework */; };
 		804B6D74785196303EB645CCD1C79EE5 /* ActionSheetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B25C340A6A0BE2E21AB864C563A08B7 /* ActionSheetRow.swift */; };
@@ -50,6 +48,7 @@
 		93748EA49FCD9EF155AFCFFD9CEA8136 /* SliderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD67B2647444869BAF7DBF4722C86D3 /* SliderRow.swift */; };
 		94216BFB2AF1B7F1CD43B0401A623F70 /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF63C90691EE467BCD0C8F7549A76A88 /* SelectorViewController.swift */; };
 		942583935EB712BC81E5F01919E1EFD7 /* SelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448DDBF78DD5943F7AC940CA24826D3 /* SelectorRow.swift */; };
+		9495217107E688B17176318185AA2882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2265178CFDBE372CE5292DA0F13D43BF /* Foundation.framework */; };
 		9530B28AFF019AC003E5A01ADAA19A7D /* AlertRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BF21646B3BB710036D815F22E3F09 /* AlertRow.swift */; };
 		969E0DB9B80ADF2681C84C68C174BB38 /* SelectableRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D7FC0D7AE7CABE35DA8D69A62BEF35 /* SelectableRowType.swift */; };
 		A139110B451BC866C4D19E805577391D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9F855F9EC82ED02AD26B6EAC083FCD /* Protocols.swift */; };
@@ -57,8 +56,8 @@
 		A31A3E644C08304B82EA33D5CC49F642 /* MultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629D8732C18896851E1D06F10886E679 /* MultipleSelectorRow.swift */; };
 		A6792D1386AD67459293295DD80323B3 /* MultipleSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1878F3B9A4A0CB66E095E5ADD62033 /* MultipleSelectorViewController.swift */; };
 		A6F16B6CC1ED4C25031775A12FD730BB /* PushRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2E6E0930DDB21A77791ECF97ABE2C7 /* PushRow.swift */; };
-		A8FCCB3134A4CE905E93669FE6B07710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2265178CFDBE372CE5292DA0F13D43BF /* Foundation.framework */; };
 		B01D4D0408E01DE7CC0EC5402D8D9F00 /* StepperRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753B8D051793599525865F2CC9936027 /* StepperRow.swift */; };
+		B395FB13A74F634734095207B9FBEB0D /* MTFConverter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A33BD5B116E769FDF6298F016AA7C6E /* MTFConverter-dummy.m */; };
 		B4C681E1639A0FCD1E5770370FA5027E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B4724A6CFB7AB014EB0B82AFD6F0BC /* UIKit.framework */; };
 		B7DB4B868834CC37618900C0FEDF3F1C /* SwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA582DF79D0F6ACC3F438C124CEFD3F3 /* SwitchRow.swift */; };
 		C3D9FD39975FFCE3B1EA1968F6453426 /* PostalAddressRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D483AE38B36594A5E272D0260F43056B /* PostalAddressRow.swift */; };
@@ -71,12 +70,13 @@
 		DBC4386DDD9D7096D8ABBB355B5E4DD0 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6843612617C72EE23A5C7F87C705E78 /* Section.swift */; };
 		DCAEB773C1E1C0CF94EE92A9AA99C329 /* FieldRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4EB2A21C31D1B486E9A89D3C0F1D81 /* FieldRow.swift */; };
 		DE644832B971D2031EF0246712692779 /* SegmentedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7C64E0509D2F32946134A288C5A68A /* SegmentedRow.swift */; };
+		E2B1C96C3B1436E3EF9053F6B35FC9E2 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0C19F11F32C912C1014479341867D7 /* Eureka.framework */; };
 		E35126F5E99598B42315A9C9F5C41DEA /* DateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEA9CDFF2D4BC1C5C63868CCBDDF1 /* DateRow.swift */; };
 		E7744BDE6B307E60F1840FB7DF8416B1 /* GenericMultipleSelectorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084761790C248445952514529274C776 /* GenericMultipleSelectorRow.swift */; };
 		E774FD99645675D8738D90037FD68F28 /* ImageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956078B3685A38365A83B7CFCF7EB8B7 /* ImageRow.swift */; };
-		E7E5727A9A5D47003A5FC16DD5A1A823 /* MTFConverter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A33BD5B116E769FDF6298F016AA7C6E /* MTFConverter-dummy.m */; };
 		E994C7B3AD81F25A03886A4E6AA327C0 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CE307F39406AE14F3BD63D0A77C424 /* Row.swift */; };
 		F6489B5AA612A6B9DDA466AED1657023 /* PresenterRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B90200B7E19261FEA7C1129B2C13534 /* PresenterRowType.swift */; };
+		F7C10AA46453ABBAB5A3A1DDF069FDF1 /* MTFConverter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76000701C4DA6236FCB6BC837EE214B4 /* MTFConverter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +87,7 @@
 			remoteGlobalIDString = 4332352E97A37C729DC7D9B3B8A4BB15;
 			remoteInfo = Eureka;
 		};
-		98F689D9CE8EB7418E3817C3DCED84A5 /* PBXContainerItemProxy */ = {
+		BF7E81F11777EF50ED712DE48B234519 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -105,7 +105,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AEEBDAA6246D5A4366EF38985D66C2CA;
+			remoteGlobalIDString = FF7644401AC6B5B2D08F2552D6260C24;
 			remoteInfo = MTFConverter;
 		};
 /* End PBXContainerItemProxy section */
@@ -124,6 +124,7 @@
 		21B2576EE93BC8C92F2F31DE3B15A857 /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
 		2265178CFDBE372CE5292DA0F13D43BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		23B342EC7C65ED4CE071196650ADD70B /* ButtonRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonRow.swift; path = Source/Rows/ButtonRow.swift; sourceTree = "<group>"; };
+		26B8A2CC5642207E2478C11588A203F6 /* MTFObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MTFObject.swift; sourceTree = "<group>"; };
 		29967B2355F794B3BC2EFD0AAB04D7CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29DB286CE7867DDED78EED9EDF04BE5E /* Pods-MTFConverter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTFConverter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2A71D1EB24E862E5AD654E9E17CBE0A4 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,6 +139,7 @@
 		45CA5CCA9613BCC537B35C081B77507A /* DateInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineRow.swift; path = Source/Rows/DateInlineRow.swift; sourceTree = "<group>"; };
 		4B25C340A6A0BE2E21AB864C563A08B7 /* ActionSheetRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetRow.swift; path = Source/Rows/ActionSheetRow.swift; sourceTree = "<group>"; };
 		4EC6C6EE009467397DEBA45645D840F5 /* MTFConverter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTFConverter-prefix.pch"; sourceTree = "<group>"; };
+		4F3B3AFC63B2C71716CCE343ECD21C38 /* MTFConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MTFConverter.swift; sourceTree = "<group>"; };
 		5014E25EC4CE9F67EA34143817DA2B22 /* NavigationAccessoryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationAccessoryView.swift; path = Source/Core/NavigationAccessoryView.swift; sourceTree = "<group>"; };
 		5082F522B5F1B06CE9B3134DA731988A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55688A2E3230AF8215F1149530A80779 /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
@@ -150,7 +152,6 @@
 		60A92912A0FEDE9ACE55C1E0CCD579B6 /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
 		629D8732C18896851E1D06F10886E679 /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
 		63B4724A6CFB7AB014EB0B82AFD6F0BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		6706AE3A1D8F1A0900D0DC48 /* MTFObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTFObject.swift; sourceTree = "<group>"; };
 		6AA2F5755FA81ECCDC1FD3AD839479EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		712FE0C9CC1C519A135BCAA9FEED610A /* Pods-MTFConverter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTFConverter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		726AC476AC8793F848C1F8E07A06EC4E /* HeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderFooterView.swift; path = Source/Core/HeaderFooterView.swift; sourceTree = "<group>"; };
@@ -171,7 +172,6 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94AEB86A65580CDEBE7E840FD70FB60D /* Pods-MTFConverter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTFConverter_Tests-dummy.m"; sourceTree = "<group>"; };
 		956078B3685A38365A83B7CFCF7EB8B7 /* ImageRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageRow.swift; path = Source/Rows/ImageRow.swift; sourceTree = "<group>"; };
-		960AAB1D0D70D70DBE011FC06FB77C6A /* MTFConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MTFConverter.swift; sourceTree = "<group>"; };
 		98980DE0E070053F2617C5A3E2785BEE /* Pods-MTFConverter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTFConverter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9C0072816840A2EF18AF66B5E9CA0354 /* RowControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowControllerType.swift; path = Source/Core/RowControllerType.swift; sourceTree = "<group>"; };
 		9D0C19F11F32C912C1014479341867D7 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,20 +219,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F40D67FA6DF4A1B8D503B8A7A1F7EF9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7115F2E2348DE6A7F3B1817CBED3AA72 /* Eureka.framework in Frameworks */,
-				A8FCCB3134A4CE905E93669FE6B07710 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6732F3E646276FB23CA67E8C383850A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1C22C4671C22817B498B677D40BBDA29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C291E9BAA432AFB5D91001DA619E35E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B1C96C3B1436E3EF9053F6B35FC9E2 /* Eureka.framework in Frameworks */,
+				9495217107E688B17176318185AA2882 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +247,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A05A84EBA0228F9D3C7C3B9CF728B17 /* MTFConverter */ = {
+			isa = PBXGroup;
+			children = (
+				F5BCB015DAA5C4FDD7561D51B530A97E /* Classes */,
+			);
+			path = MTFConverter;
+			sourceTree = "<group>";
+		};
 		248E58983C91F08CCC5925094DECFEB4 /* MTFConverter */ = {
 			isa = PBXGroup;
 			children = (
-				DD2AAF7E887809AD3E2B52F51FD3CAFD /* MTFConverter */,
+				0A05A84EBA0228F9D3C7C3B9CF728B17 /* MTFConverter */,
 				BA2CC3960E63380C098D27F698CF3CEE /* Support Files */,
 			);
 			name = MTFConverter;
@@ -426,15 +434,6 @@
 			path = "Example/Pods/Target Support Files/MTFConverter";
 			sourceTree = "<group>";
 		};
-		CFE05D677C5594B5D8E5E2517AAF3F97 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				960AAB1D0D70D70DBE011FC06FB77C6A /* MTFConverter.swift */,
-				6706AE3A1D8F1A0900D0DC48 /* MTFObject.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		D256155DD324B95CA87557494379336D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -452,14 +451,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		DD2AAF7E887809AD3E2B52F51FD3CAFD /* MTFConverter */ = {
-			isa = PBXGroup;
-			children = (
-				CFE05D677C5594B5D8E5E2517AAF3F97 /* Classes */,
-			);
-			path = MTFConverter;
-			sourceTree = "<group>";
-		};
 		F4C3826D6EA1A0CB862B622B3EF05C68 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -472,6 +463,15 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Eureka";
+			sourceTree = "<group>";
+		};
+		F5BCB015DAA5C4FDD7561D51B530A97E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4F3B3AFC63B2C71716CCE343ECD21C38 /* MTFConverter.swift */,
+				26B8A2CC5642207E2478C11588A203F6 /* MTFObject.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -493,19 +493,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D3D3723646C22A7048716718427566F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FA02C6554204853F8DBBFA327BE16EE /* MTFConverter-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7EDF7059C8541FFEA52A5075941329EE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				103473BC0EFC477EB654B475B6AC8458 /* Eureka-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0DABDD1EB55CB865ED192D6BF9CCB7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C10AA46453ABBAB5A3A1DDF069FDF1 /* MTFConverter-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,18 +567,18 @@
 			productReference = 1EB1AAECD331C0F95067BE2701B598A5 /* Pods_MTFConverter_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AEEBDAA6246D5A4366EF38985D66C2CA /* MTFConverter */ = {
+		FF7644401AC6B5B2D08F2552D6260C24 /* MTFConverter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0470AEEFAE000D0BE212D1B5F90ED34A /* Build configuration list for PBXNativeTarget "MTFConverter" */;
+			buildConfigurationList = DEC8C6110B59AD0DCE036AED45899001 /* Build configuration list for PBXNativeTarget "MTFConverter" */;
 			buildPhases = (
-				5A9195AC4BEDA3BFFBB2CC292536BD11 /* Sources */,
-				3F40D67FA6DF4A1B8D503B8A7A1F7EF9 /* Frameworks */,
-				6D3D3723646C22A7048716718427566F /* Headers */,
+				D85C56E1B19FFFF5B30385BE96D82EFF /* Sources */,
+				C291E9BAA432AFB5D91001DA619E35E5 /* Frameworks */,
+				D0DABDD1EB55CB865ED192D6BF9CCB7D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2811FB80CE2C8BDEF57928154130C8F0 /* PBXTargetDependency */,
+				1758A5FD751C59D6BF520C3E1909E7D8 /* PBXTargetDependency */,
 			);
 			name = MTFConverter;
 			productName = MTFConverter;
@@ -607,7 +607,7 @@
 			projectRoot = "";
 			targets = (
 				4332352E97A37C729DC7D9B3B8A4BB15 /* Eureka */,
-				AEEBDAA6246D5A4366EF38985D66C2CA /* MTFConverter */,
+				FF7644401AC6B5B2D08F2552D6260C24 /* MTFConverter */,
 				A65F3CF42555A4EF0083B750089AD95A /* Pods-MTFConverter_Example */,
 				29AA18CADF2FCB645370D7F8B16E74D9 /* Pods-MTFConverter_Tests */,
 			);
@@ -626,16 +626,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5A9195AC4BEDA3BFFBB2CC292536BD11 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E7E5727A9A5D47003A5FC16DD5A1A823 /* MTFConverter-dummy.m in Sources */,
-				7A7D21EEEB9A723E712797967A1469DB /* MTFConverter.swift in Sources */,
-				6706AE3B1D8F1A0900D0DC48 /* MTFObject.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7BF4F18745716A926C4CF9797A4190B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -705,6 +695,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D85C56E1B19FFFF5B30385BE96D82EFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B395FB13A74F634734095207B9FBEB0D /* MTFConverter-dummy.m in Sources */,
+				72569EB3E4368A806967E254EC31EC9F /* MTFConverter.swift in Sources */,
+				6A451E3A5264C026E511B52D6E825EBE /* MTFObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E16637A6A543E39B62B8A24AF6C3A2F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -716,11 +716,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2811FB80CE2C8BDEF57928154130C8F0 /* PBXTargetDependency */ = {
+		1758A5FD751C59D6BF520C3E1909E7D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Eureka;
 			target = 4332352E97A37C729DC7D9B3B8A4BB15 /* Eureka */;
-			targetProxy = 98F689D9CE8EB7418E3817C3DCED84A5 /* PBXContainerItemProxy */;
+			targetProxy = BF7E81F11777EF50ED712DE48B234519 /* PBXContainerItemProxy */;
 		};
 		54C14D04DE8D83A959CF1239BFE9FCDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -731,7 +731,7 @@
 		6E8C49BB984B7318129D7F66F705B54E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MTFConverter;
-			target = AEEBDAA6246D5A4366EF38985D66C2CA /* MTFConverter */;
+			target = FF7644401AC6B5B2D08F2552D6260C24 /* MTFConverter */;
 			targetProxy = EDA8CF04CF6200EB3DD96E5F66DB4FD3 /* PBXContainerItemProxy */;
 		};
 		D718E2D1E73C45F20556F4C34834C92E /* PBXTargetDependency */ = {
@@ -882,7 +882,7 @@
 			};
 			name = Debug;
 		};
-		5EABB00C5A2660771B6FFC15F9253205 /* Release */ = {
+		5108662CB4C76C0AC9075F9A89D66449 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7758E531995670DCEE8CE46965BC947A /* MTFConverter.xcconfig */;
 			buildSettings = {
@@ -910,6 +910,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		6711E9C62492CE5670E2FCBEE4761EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7758E531995670DCEE8CE46965BC947A /* MTFConverter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MTFConverter/MTFConverter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTFConverter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MTFConverter/MTFConverter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MTFConverter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		6A8680F33C71B786657ED3F9428AB3A7 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -965,36 +995,6 @@
 				MODULEMAP_FILE = "Target Support Files/Eureka/Eureka.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Eureka;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C1140EB253601190230BC718D9275A52 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7758E531995670DCEE8CE46965BC947A /* MTFConverter.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MTFConverter/MTFConverter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MTFConverter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MTFConverter/MTFConverter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MTFConverter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1078,15 +1078,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0470AEEFAE000D0BE212D1B5F90ED34A /* Build configuration list for PBXNativeTarget "MTFConverter" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C1140EB253601190230BC718D9275A52 /* Debug */,
-				5EABB00C5A2660771B6FFC15F9253205 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		06CAE4617A9C4BF458755F5C4A516944 /* Build configuration list for PBXNativeTarget "Eureka" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1119,6 +1110,15 @@
 			buildConfigurations = (
 				062D336A6C30589F0B68E012F067520A /* Debug */,
 				6A8680F33C71B786657ED3F9428AB3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC8C6110B59AD0DCE036AED45899001 /* Build configuration list for PBXNativeTarget "MTFConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6711E9C62492CE5670E2FCBEE4761EF8 /* Debug */,
+				5108662CB4C76C0AC9075F9A89D66449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

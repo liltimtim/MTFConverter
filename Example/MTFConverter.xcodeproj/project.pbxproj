@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042957C66F76DD06E55B9CBA /* Pods_MTFConverter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A8C6EF593B7B485CFA2D2A /* Pods_MTFConverter_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		67C7D5621D8F5F2300DE87C2 /* Pods_MTFConverter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C7D5611D8F5F2300DE87C2 /* Pods_MTFConverter_Example.framework */; };
+		67C7D56A1D8F5FD900DE87C2 /* MTFConverter_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C7D5691D8F5FD900DE87C2 /* MTFConverter_ExampleTests.swift */; };
 		A552F5DA6D4E52FC51CED32D /* Pods_MTFConverter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D276FDEFE918B4C9F574AE /* Pods_MTFConverter_Tests.framework */; };
-		CE8B9396B107C0AA634853AE /* Pods_MTFConverter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A8C6EF593B7B485CFA2D2A /* Pods_MTFConverter_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +26,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = MTFConverter;
+		};
+		67C7D56C1D8F5FD900DE87C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = MTFConverter_Example;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -43,6 +52,10 @@
 		607FACE51AFB9204008FA782 /* MTFConverter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTFConverter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		67C7D5611D8F5F2300DE87C2 /* Pods_MTFConverter_Example.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_MTFConverter_Example.framework; path = "../../../../Library/Developer/Xcode/DerivedData/MTFConverter-euijujkihtsmmrfalegnzgnadkcz/Build/Products/Debug-iphonesimulator/Pods_MTFConverter_Example.framework"; sourceTree = "<group>"; };
+		67C7D5671D8F5FD900DE87C2 /* MTFConverter_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTFConverter_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C7D5691D8F5FD900DE87C2 /* MTFConverter_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTFConverter_ExampleTests.swift; sourceTree = "<group>"; };
+		67C7D56B1D8F5FD900DE87C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92B5223CD9525512694E8A88 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B1DC1E454B48457E88E6BB1A /* Pods-MTFConverter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTFConverter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTFConverter_Tests/Pods-MTFConverter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E96DE870B0A5675587A36B61 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -54,7 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8B9396B107C0AA634853AE /* Pods_MTFConverter_Example.framework in Frameworks */,
+				67C7D5621D8F5F2300DE87C2 /* Pods_MTFConverter_Example.framework in Frameworks */,
+				042957C66F76DD06E55B9CBA /* Pods_MTFConverter_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +80,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67C7D5641D8F5FD900DE87C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2F08811D3ECC7C78DB660AB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				67C7D5611D8F5F2300DE87C2 /* Pods_MTFConverter_Example.framework */,
 				09A8C6EF593B7B485CFA2D2A /* Pods_MTFConverter_Example.framework */,
 				38D276FDEFE918B4C9F574AE /* Pods_MTFConverter_Tests.framework */,
 			);
@@ -84,6 +106,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for MTFConverter */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				67C7D5681D8F5FD900DE87C2 /* MTFConverter_ExampleTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				B0A585362CCCBDF21E9C9487 /* Pods */,
 				2F08811D3ECC7C78DB660AB1 /* Frameworks */,
@@ -95,6 +118,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* MTFConverter_Example.app */,
 				607FACE51AFB9204008FA782 /* MTFConverter_Tests.xctest */,
+				67C7D5671D8F5FD900DE87C2 /* MTFConverter_ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,6 +170,15 @@
 				92B5223CD9525512694E8A88 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		67C7D5681D8F5FD900DE87C2 /* MTFConverter_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				67C7D5691D8F5FD900DE87C2 /* MTFConverter_ExampleTests.swift */,
+				67C7D56B1D8F5FD900DE87C2 /* Info.plist */,
+			);
+			path = MTFConverter_ExampleTests;
 			sourceTree = "<group>";
 		};
 		B0A585362CCCBDF21E9C9487 /* Pods */ = {
@@ -203,13 +236,31 @@
 			productReference = 607FACE51AFB9204008FA782 /* MTFConverter_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		67C7D5661D8F5FD900DE87C2 /* MTFConverter_ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C7D5701D8F5FD900DE87C2 /* Build configuration list for PBXNativeTarget "MTFConverter_ExampleTests" */;
+			buildPhases = (
+				67C7D5631D8F5FD900DE87C2 /* Sources */,
+				67C7D5641D8F5FD900DE87C2 /* Frameworks */,
+				67C7D5651D8F5FD900DE87C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67C7D56D1D8F5FD900DE87C2 /* PBXTargetDependency */,
+			);
+			name = MTFConverter_ExampleTests;
+			productName = MTFConverter_ExampleTests;
+			productReference = 67C7D5671D8F5FD900DE87C2 /* MTFConverter_ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -218,6 +269,10 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					67C7D5661D8F5FD900DE87C2 = {
+						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -237,6 +292,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* MTFConverter_Example */,
 				607FACE41AFB9204008FA782 /* MTFConverter_Tests */,
+				67C7D5661D8F5FD900DE87C2 /* MTFConverter_ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,6 +309,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C7D5651D8F5FD900DE87C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -372,6 +435,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67C7D5631D8F5FD900DE87C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C7D56A1D8F5FD900DE87C2 /* MTFConverter_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -379,6 +450,11 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* MTFConverter_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		67C7D56D1D8F5FD900DE87C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* MTFConverter_Example */;
+			targetProxy = 67C7D56C1D8F5FD900DE87C2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -514,6 +590,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1DC1E454B48457E88E6BB1A /* Pods-MTFConverter_Tests.debug.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -526,6 +603,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTFConverter_Example.app/MTFConverter_Example";
 			};
 			name = Debug;
 		};
@@ -533,6 +611,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2A55387D6475F54114CF4ECF /* Pods-MTFConverter_Tests.release.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -541,6 +620,36 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTFConverter_Example.app/MTFConverter_Example";
+			};
+			name = Release;
+		};
+		67C7D56E1D8F5FD900DE87C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MTFConverter_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbdev.MTFConverter-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTFConverter_Example.app/MTFConverter_Example";
+			};
+			name = Debug;
+		};
+		67C7D56F1D8F5FD900DE87C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = MTFConverter_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbdev.MTFConverter-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTFConverter_Example.app/MTFConverter_Example";
 			};
 			name = Release;
 		};
@@ -573,6 +682,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		67C7D5701D8F5FD900DE87C2 /* Build configuration list for PBXNativeTarget "MTFConverter_ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C7D56E1D8F5FD900DE87C2 /* Debug */,
+				67C7D56F1D8F5FD900DE87C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
