@@ -1,6 +1,6 @@
 # MTFConverter
 
-[![CI Status](https://travis-ci.org/liltimtim/MTFConverter.svg?branch=master)
+[![CI Status](https://travis-ci.org/liltimtim/MTFConverter.svg?branch=master)](http://cocoapods.org/pods/MTFConverter)
 [![Version](https://img.shields.io/cocoapods/v/MTFConverter.svg?style=flat)](http://cocoapods.org/pods/MTFConverter)
 [![License](https://img.shields.io/cocoapods/l/MTFConverter.svg?style=flat)](http://cocoapods.org/pods/MTFConverter)
 [![Platform](https://img.shields.io/cocoapods/p/MTFConverter.svg?style=flat)](http://cocoapods.org/pods/MTFConverter)
